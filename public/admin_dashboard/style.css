@@ -1,0 +1,46 @@
+/*navbar-header logo*/
+#main-wrapper[data-layout=vertical] .topbar .top-navbar .navbar-header[data-logobg=skin5], #main-wrapper[data-layout=horizontal] .topbar .top-navbar .navbar-header[data-logobg=skin5] {
+    background: #f2f4f5;
+}
+
+/*sidebar*/
+#main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin5], #main-wrapper[data-layout=vertical] .left-sidebar[data-sidebarbg=skin5] ul, #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin5], #main-wrapper[data-layout=horizontal] .left-sidebar[data-sidebarbg=skin5] ul {
+    background: #fff !important;
+}
+.sidebar-nav ul .sidebar-item.selected>.sidebar-link, .sidebar-nav ul .sidebar-item.selected>.sidebar-link i {
+    color: #fff;
+}
+.sidebar-nav ul .sidebar-item .sidebar-link, .sidebar-nav ul .sidebar-item .sidebar-link i {
+    color: #000;
+}
+.sidebar-nav>#sidebarnav>.sidebar-item.selected>.sidebar-link, .sidebar-nav>#sidebarnav>.sidebar-item>.sidebar-link:hover {
+    background: #233F4E;
+    border-left: 2px solid #FA9832;
+    color: #fff;
+}
+.sidebar-nav>#sidebarnav>.sidebar-item>.sidebar-link:hover i{
+	color: #fff !important;
+}
+
+/*dropify*/
+.dropify-wrapper{
+	height: 260px !important;
+}
+
+/*text color*/
+.text-blue{
+	color: #43A6FC;
+}
+
+/*validation-error*/
+input.input-error{
+    border-color: #fa5838 !important;
+}
+select.input-error{
+    border-color: #fa5838 !important;
+}
+
+.page-breadcrumb .page-title {
+    font-size: 16px !important;
+    text-transform: uppercase;
+}
